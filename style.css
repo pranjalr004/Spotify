@@ -50,7 +50,7 @@ nav ul li{
     width: 80%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('bg.jpg');
+    background-image: url('/covers/bg.jpg');
 }
 
 .bottom{
@@ -75,7 +75,7 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
-
+    cursor: pointer;
 }
 
 .songItem{
@@ -114,5 +114,6 @@ nav ul li{
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
+    font-family: 'Varela Round',sans-serif;
 }
